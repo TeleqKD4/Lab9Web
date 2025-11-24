@@ -1,6 +1,6 @@
 ## PHP Modular 
 ## header.php
-```
+```php
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,7 +22,7 @@
 ```
 
 ## footer.php
-```
+```php
         <footer>
             <p>&copy; 2021, Informatika, Universitas Pelita Bangsa</p>
         </footer>
@@ -32,7 +32,7 @@
 ```
 
 ## home.php
-```
+```php
 <?php require('header.php'); ?>
 <div class="content">
     <h2>Ini Halaman Home</h2>
@@ -42,7 +42,7 @@
 ```
 
 ## about.php
-```
+```php
 <?php require('header.php'); ?>
 <div class="content">
     <h2>Ini Halaman About</h2>
